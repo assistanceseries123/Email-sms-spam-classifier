@@ -6,6 +6,7 @@ import sklearn
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 nltk.download('punkt')
+nltk.download('stopwords')
 ps=PorterStemmer()
 st.set_page_config(layout='centered',page_title='Email/sms spam classifier')
 def transform_text(text):
